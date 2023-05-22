@@ -7,7 +7,7 @@ import random
 try:
     from tabulate import tabulate
 except ModuleNotFoundError:
-    # Handle the missing module error
+    # Handle the missing module error 
     print("The 'tabulate' module is not installed.")
     print("Please install it by running: pip install tabulate")
     time.sleep(3)
