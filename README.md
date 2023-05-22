@@ -57,10 +57,6 @@ A carbon footprint refers to the greenhouse gases produced by an individual in t
 A carbon footprint calculator measures emissions in kilograms of carbon dioxide equivalents (CO2e). It includes a calculator that determines the amount of carbon emissions produced. Users input their transportation, energy usage, diet, consumption habits, and housing factors into the calculator. The calculator also provides suggestions for carbon offsetting and emissions reduction based on the user's inputs. Ultimately, it presents results and analysis to raise awareness about the impact of carbon emissions and encourage environmentally conscious actions.
 </p>
 
-<p align="center">
-  <img src="https://media.discordapp.net/attachments/1080008638476861512/1090889491100749865/car.gif?width=385&height=385" width="180px">
-</p>
-
 #
 
 <p align="center">
@@ -100,6 +96,10 @@ This program will benefit the following:
 👨‍🏫 __Personalized Recommendations__
 * Describes the personalized recommendations feature and provides customized suggestions to reduce the user's carbon footprint.  
 * Discusses the recommendations the program can provide, such as reducing meat consumption, using public transportation, or switching to renewable energy sources.
+
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/1080008638476861512/1090889491100749865/car.gif?width=385&height=385" width="180px">
+</p>
 
 #
 
