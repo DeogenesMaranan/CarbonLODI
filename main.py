@@ -7,7 +7,7 @@ try:
 except ModuleNotFoundError:  # Handle the missing module error
     print("The 'miscellaneous.py' file is missing.")
     print("Please download the latest version of the Repository")
-    time.sleep(3)
+    time.sleep(4)
     sys.exit(1002)
 
 while True:  # Runs the Main Menu in loop
