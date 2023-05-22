@@ -26,7 +26,7 @@ __L.O.D.I__ _stands for:_
  
 ✔️ __Offsetting__ global warming through simple suggestions and advices. 
 
-✔️ __Determining__ one’s environmental impact on the environment.
+✔️ __Determining__ one’s environmental impact on the environment. 
 
 ✔️ __Indexing__ and monitoring carbon emissions.
 
