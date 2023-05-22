@@ -130,7 +130,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
                 "Estimate the average number of hours per day you use a bio stove: ") * 0.03
 
         #  Formulas per month
-        house_size_sq_ft = house_size_sq_m * 10.764  # 1 sq m = 10.764 sq ft
+        house_size_sq_ft = house_size_sq_m * 10.764  # 1 sq m = 10.764 sq ft 
         electricity_emissions = electricity_use * 0.5  # 0.5 kg CO2e per kWH
 
         # Convert to grams per day
