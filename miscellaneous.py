@@ -78,6 +78,7 @@ Response: '''
 
 class ErrorHandler(ErrorHandlerABC):
     def get_valid_option(self, prompt, valid_options=None):
+        """T"""
         if valid_options is None:
             valid_options = ['0', '1', '2']
         while True:
