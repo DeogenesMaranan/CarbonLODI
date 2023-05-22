@@ -54,7 +54,7 @@ A carbon footprint refers to the greenhouse gases produced by an individual in t
 </p>
 
 <p align="justify">
-A carbon footprint calculator measures emissions in kilograms of carbon dioxide equivalents (CO2e). It includes a calculator that determines the amount of carbon emissions produced. Users input their transportation, energy usage, diet, consumption habits, and housing factors into the calculator. The calculator also provides suggestions for carbon offsetting and emissions reduction based on the user's inputs. Ultimately, it presents results and analysis to raise awareness about the impact of carbon emissions and encourage environmentally conscious actions.
+A carbon footprint calculator measures emissions in kilograms of carbon dioxide equivalents (CO2e). It includes a calculator that determines the amount of carbon emissions produced. Users input their transportation, energy usage, diet, consumption habits, and housing factors into the calculator. The calculator also provides suggestions for carbon offsetting and emissions reduction based on the user's inputs. Ultimately, it presents results and analysis to raise awareness about the impact of carbon emissions and encourage environmentally conscious actions. 
 </p>
 
 #
