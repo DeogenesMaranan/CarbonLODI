@@ -89,6 +89,7 @@ class ErrorHandler(ErrorHandlerABC):
                 print(f"Invalid input.")
 
     def get_float(self, prompt):
+        """Takes in float, returns whether the input is valid or not."""
         while True:
             try:
                 value = float(input(prompt))
