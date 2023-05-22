@@ -150,7 +150,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
         return ((electricity_emissions + cooking_emission) / occupants / house_size_sq_ft) * 1000 / 30
 
     def calculate_transportation_emissions(self):
-        """A prompt for collecting data from the transportation emissions."""
+        """A prompt for collecting data from the user's transportation emissions."""
         transportation_type = self.get_valid_option(Constants.transportation_menu)
 
         if transportation_type == '0':
