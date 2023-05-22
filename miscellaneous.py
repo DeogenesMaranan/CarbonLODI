@@ -198,7 +198,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
     """
     This is a Class for Account Managing.
     Functions:
-        encrypt_password(password): (Private) Encrypts a password using a secret key.
+        encrypt_password(password): (Private) Encrypts a password using a secret key. 
         register(): Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file.
         load_users(): Loads user account information from the 'accounts.txt' file into the 'users' dict.
         login(): Prompts the user to login and checks if it matches a stored user account in the 'user' dict.
