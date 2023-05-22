@@ -21,7 +21,7 @@ class ErrorHandlerABC(ABC):
         """Prompt the user for a float value.
 
         Args:
-            prompt (str): The prompt message to display.
+            prompt (str): The prompt message to display. 
 
         Returns:
             float: The user's input value.
