@@ -72,13 +72,10 @@ A carbon footprint calculator measures emissions in kilograms of carbon dioxide 
 </p>
 
 <p align="justify">
-This program redounds to benefit society and the world itself, given that it tracks and shows how you produce carbon footprint and helps identify ways to minimize it to be more evironmentally-friendly. It may be a simple thing to act upon, but if every global citizen can contribute to caring for the environment, one's micro effort will have a macro effect on the world around us.  
-
 This program will benefit the following: 
 
-👨‍🎓 __Students.__ This program will aim for students to change their primary habits in their daily lives (such as eating less meat) to help make an impact.  
-🏫 __Institution.__ This program will help the institution to monitor, regulate, and control the carbon footprint of each part of the institution.  
-🏢 __Administration.__ This program will help the administration to ensure emissions in a city or country do not exceed a designated carbon footprint limit.  
+🏫 __Academe.__ This program will help the academe to monitor, regulate, and control the carbon footprint of each part of the academe.  
+🏢 __Government.__ This program will help the government to ensure emissions in a city or country do not exceed a designated carbon footprint limit.  👨‍🎓 __Students.__ This program will aim for students to change their primary habits in their daily lives (such as eating less meat) to help make an impact.    
 </p>
 
 #
