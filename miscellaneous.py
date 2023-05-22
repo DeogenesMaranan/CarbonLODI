@@ -114,7 +114,7 @@ class ErrorHandler(ErrorHandlerABC):
 
 class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
 
-    def calculate_housing_emissions(self):  # Ask user for housing information 
+    def calculate_housing_emissions(self):  # Ask user for the housing information 
 
         house_size_sq_m = self.get_float("Size of your house (square meters): ")
         occupants = self.get_int("Number of occupants in your house: ")
