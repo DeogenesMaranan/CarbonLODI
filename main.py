@@ -11,6 +11,12 @@ except ModuleNotFoundError:  # Handle the missing module error
     sys.exit(1002)
 
 def main():
+    """
+    Displays a menu to the user and handles user choices.
+
+    The function presents a menu to the user, clears the screen, and processes the user's choice.
+    It supports user registration, login, and exiting the program.
+    """
     while True:  # Runs the Main Menu in loop
         os.system('cls')
         print(Constants().logo)
