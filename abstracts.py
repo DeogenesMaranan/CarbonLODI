@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
 
 class ErrorHandlerABC(ABC):
-    """Abstract base class for error handling methods."""
+    """Abstract base class for error handling methods. """
 
     @abstractmethod
     def get_valid_option(self, prompt, valid_options):
-        """Prompt the user for input and validate it against a list of valid options.
+        """Prompt the user for input and validate it against a list of valid options. 
 
         Args:
             prompt (str): The prompt message to display.
@@ -21,7 +21,7 @@ class ErrorHandlerABC(ABC):
         """Prompt the user for a float value.
 
         Args:
-            prompt (str): The prompt message to display.
+            prompt (str): The prompt message to display. 
 
         Returns:
             float: The user's input value.
@@ -30,12 +30,12 @@ class ErrorHandlerABC(ABC):
 
     @abstractmethod
     def get_int(self, prompt):
-        """Prompt the user for an integer value.
+        """Prompt the user for an integer value. 
 
         Args:
             prompt (str): The prompt message to display.
 
-        Returns:
+        Returns: 
             int: The user's input value.
         """
         pass
