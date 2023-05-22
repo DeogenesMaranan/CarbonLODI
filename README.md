@@ -21,7 +21,7 @@
 <br>
 </p>
 
-Carbon __L.O.D.I__ _stands for:_
+__L.O.D.I__ _stands for:_
 
 ✔️ __Logging__ various factors to be considered for the calculation (transportation, energy usage, consumption habits, and housing).
 
