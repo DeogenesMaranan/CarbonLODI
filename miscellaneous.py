@@ -101,6 +101,7 @@ class ErrorHandler(ErrorHandlerABC):
                 print("Invalid input. Please enter a valid value.")
 
     def get_int(self, prompt):
+        """Takes in positive int, returns whether the input is valid or not."""
         while True:
             try:
                 value = int(input(prompt))
@@ -215,8 +216,8 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         self.users = self.load_users
 
     @staticmethod
-    def __encrypt_password(password):  # (Private) Encrypts a password using a secret key.
-
+    def __encrypt_password(password):
+        """(Private) Encrypts a password using a secret key."""
         __secret_key = "MathintheModernWorld"
         encrypted_password = ""
         for i, char in enumerate(password):  # Shifts each character by certain amount depending on the '__secret_key'
@@ -227,6 +228,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
 
     @property
     def load_users(self):
+        """Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file."""
         file_path = os.path.join(os.getcwd(), 'resources', 'accounts.txt')
         try:
             users = {}
@@ -241,7 +243,8 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
             time.sleep(3)
             sys.exit(1002)
 
-    def register(self):  # Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file. 
+    def register(self):
+        """Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file. """
         while True:
             username = input("Enter your username: ")
             if username in self.users:
@@ -257,7 +260,8 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         print("Registration successful.")
         return username
 
-    def login(self):  # Prompts the user to login and checks if it matches a stored user account in the 'user' dict. 
+    def login(self):
+        """Prompts the user to login and checks if it matches a stored user account in the 'user' dict. """
         username = input("Enter your username: ")
         password = input("Enter your password: ")
         encrypted_password = self.__encrypt_password(password)
@@ -269,6 +273,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
 
     @staticmethod
     def file_to_dict(current_user):
+        """Convert the 'user-username.txt' file into 'data_dict' dict."""
         data_dict = {}
         try:
             file_path = os.path.join(os.getcwd(), 'users', f"user-{current_user}.txt")
@@ -287,6 +292,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
 
     @staticmethod
     def generate_table(data_dict):
+        """Convert 'data_dict' dict into a table using tabulate."""
         if not data_dict:
             print("Data dictionary is empty. File may not exist.")
             return ''
@@ -298,6 +304,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         return tabulate(table, headers, tablefmt='grid')
 
     def show_home(self, current_user):
+        """Prompts user a menu to choose from."""
         self.current_user = current_user
         os.system('cls')
         print(Constants.logo)
