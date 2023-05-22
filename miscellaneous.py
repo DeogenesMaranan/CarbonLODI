@@ -204,6 +204,9 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         register(): Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file.
         load_users(): Loads user account information from the 'accounts.txt' file into the 'users' dict.
         login(): Prompts the user to login and checks if it matches a stored user account in the 'user' dict.
+        file_to_dict(): Convert the 'user-username.txt' file into 'data_dict' dict.
+        generate_table(): Convert 'data_dict' dict into a table using tabulate.
+        show_home(): Prompts user a menu to choose from.
     """
 
     def __init__(self):
