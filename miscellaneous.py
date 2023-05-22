@@ -64,7 +64,7 @@ Response: '''
                     1 - Private Vehicle
                     2 - Public Vehicle
 
-    Response: '''
+Response: '''
 
     @staticmethod
     def print_random_recommendation():
