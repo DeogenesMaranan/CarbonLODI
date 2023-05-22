@@ -101,7 +101,6 @@ class ErrorHandler(ErrorHandlerABC):
                 print("Invalid input. Please enter a valid value.")
 
     def get_int(self, prompt):
-        """Takes in positive int, returns whether the input is valid or not."""
         while True:
             try:
                 value = int(input(prompt))
