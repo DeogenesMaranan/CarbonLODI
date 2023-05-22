@@ -46,19 +46,15 @@ Carbon __L.O.D.I__ _stands for:_
 </p>
 
 <p align="justify">
-Climate change refers to long-term shifts in temperatures and weather patterns and is a distinctly alarming matter. As we live in a modern contemporary world, individuals, corporations, businesses, industries, and many more have ever-increasing greenhouse gasses. Reducing carbon emissions is significant because it can help offset the dangerous and harmful effects high levels of carbon dioxide (CO2) have on our environment that has caused increased heat, drought, and insect outbreaks.
+Climate change is a concerning issue caused by long-term shifts in temperatures and weather patterns. The increasing greenhouse gas emissions from individuals, corporations, businesses, and industries have led to harmful effects on the environment, such as heat, drought, and insect outbreaks. It is crucial to reduce carbon emissions to mitigate these effects.
 </p>
 
 <p align="justify">
-Your carbon footprint is the amount of greenhouse gases—including carbon dioxide, methane, nitrous oxide, fluorinated gases and others—that you produce as you live your life. People can better comprehend the effects of their everyday activities and lifestyle decisions on their environment by keeping track of their carbon footprint. Thus, if we achieve a minimized carbon footprint, we firmly believe we can attain a more sustainable lifestyle alongside a more promising future.
+A carbon footprint refers to the greenhouse gases produced by an individual in their daily life, including carbon dioxide, methane, nitrous oxide, and fluorinated gases. By tracking their carbon footprint, people can understand the environmental impact of their activities and lifestyle choices. Minimizing carbon footprint is essential for achieving a sustainable lifestyle and a better future.
 </p>
 
 <p align="justify">
-A carbon footprint calculator is measured in kilograms of carbon dioxide equivalents (CO2e). It contains standard features such as a calculator--which calculates the number of carbon emissions produced. The carbon footprint calculator requires the user to input their mode of transportation, energy usage, diet, consumption habits, and various housing factors.
-</p>
-
-<p align="justify">
-Moreover, the program offers suggestions regarding carbon offsetting and emissions reduction related to the user's previous inputs. Lastly, the carbon footprint calculator provides results and analysis to help people realize the impact of their carbon emissions and how they could take ethical steps for the environment.
+A carbon footprint calculator measures emissions in kilograms of carbon dioxide equivalents (CO2e). It includes a calculator that determines the amount of carbon emissions produced. Users input their transportation, energy usage, diet, consumption habits, and housing factors into the calculator. The calculator also provides suggestions for carbon offsetting and emissions reduction based on the user's inputs. Ultimately, it presents results and analysis to raise awareness about the impact of carbon emissions and encourage environmentally conscious actions.
 </p>
 
 <p align="center">
