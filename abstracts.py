@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 class ErrorHandlerABC(ABC):
-    """Abstract base class for error handling methods."""
+    """Abstract base class for error handling methods. """
 
     @abstractmethod
     def get_valid_option(self, prompt, valid_options):
