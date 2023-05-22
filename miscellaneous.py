@@ -68,6 +68,7 @@ Response: '''
 
     @staticmethod
     def print_random_recommendation():
+        """Prints random recommendation from '//resources/recommendations.txt' file"""
         file_path = os.path.join(os.getcwd(), 'resources', 'recommendations.txt')
         with open(file_path, 'r') as file:
             lines = file.readlines()
