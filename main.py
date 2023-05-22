@@ -33,6 +33,6 @@ def main():
             break
         else:
             print("Invalid choice. Please try again.")
-            input("Press Enter to continue..")
+            input("Press Enter to continue...")
 
 main()
