@@ -35,7 +35,7 @@ class ErrorHandlerABC(ABC):
         Args:
             prompt (str): The prompt message to display.
 
-        Returns:
+        Returns: 
             int: The user's input value.
         """
         pass
