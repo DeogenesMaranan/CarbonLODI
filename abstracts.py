@@ -5,7 +5,7 @@ class ErrorHandlerABC(ABC):
 
     @abstractmethod
     def get_valid_option(self, prompt, valid_options):
-        """Prompt the user for input and validate it against a list of valid options.
+        """Prompt the user for input and validate it against a list of valid options. 
 
         Args:
             prompt (str): The prompt message to display.
