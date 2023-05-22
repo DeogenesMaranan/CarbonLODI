@@ -25,6 +25,7 @@ except ModuleNotFoundError:
 
 
 class Constants:
+    """Store frequently used variables and method"""
     logo = '''
 
  ██████╗ █████╗ ██████╗ ██████╗  ██████╗ ███╗   ██╗    ██╗      ██████╗ ██████╗ ██╗
@@ -115,6 +116,14 @@ class ErrorHandler(ErrorHandlerABC):
 
 
 class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
+    """
+    A class that calculates carbon emissions based on housing, transportation, and food information.
+    Functions:
+        calculate_housing_emissions(): Calculates carbon emissions from housing.
+        calculate_transportation_emissions(): Calculates carbon emissions from transportation.
+        calculate_food_emissions(): Calculates carbon emissions from food consumption.
+        calculate_all(): Calculates total carbon emissions and provides recommendations.
+    """
 
     def calculate_housing_emissions(self):  # Ask user for the housing information 
 
