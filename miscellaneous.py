@@ -261,7 +261,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
             print(f"\nWelcome, {username}!")
             return username
         else:
-            print("Invalid username or password.")
+            print("Invalid username or password..")
 
     @staticmethod
     def file_to_dict(current_user):
