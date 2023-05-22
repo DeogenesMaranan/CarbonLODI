@@ -199,6 +199,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
         return food_co2e
 
     def calculate_all(self, current_user):
+        """Records the data into the designated text file."""
         date = datetime.datetime.now()
         total_emissions = self.calculate_housing_emissions() + self.calculate_transportation_emissions() + self.calculate_food_emissions()
 
