@@ -50,7 +50,7 @@ Climate change is a concerning issue caused by long-term shifts in temperatures 
 </p>
 
 <p align="justify">
-A carbon footprint refers to the greenhouse gases produced by an individual in their daily life, including carbon dioxide, methane, nitrous oxide, and fluorinated gases. By tracking their carbon footprint, people can understand the environmental impact of their activities and lifestyle choices. Minimizing carbon footprint is essential for achieving a sustainable lifestyle and a better future. 
+A carbon footprint refers to the greenhouse gases produced by an individual in their daily life, including carbon dioxide, methane, nitrous oxide, and fluorinated gases. By tracking their carbon footprint, people can understand the environmental impact of their activities and lifestyle choices. Minimizing carbon footprint is essential for achieving a sustainable lifestyle and a better future.  
 </p>
 
 <p align="justify">
