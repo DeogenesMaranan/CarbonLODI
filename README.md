@@ -101,6 +101,22 @@ This program will benefit the following:
   <img src="https://media.discordapp.net/attachments/1080008638476861512/1090889491100749865/car.gif?width=385&height=385" width="180px">
 </p>
 
+#
+<p align="center">
+<picture>
+  <source srcset="https://cdn.discordapp.com/attachments/1048446248274890764/1110149221585256508/uml-dark-header.png" media="(prefers-color-scheme: dark)">
+  <img src="https://cdn.discordapp.com/attachments/1048446248274890764/1110149221807575120/uml-light-header.png" alt="UML Diagram" height="35px">
+</picture>
+  <br>
+</p>
+
+<p align="center">
+<picture>
+  <source srcset="https://cdn.discordapp.com/attachments/1048446248274890764/1110143238792290345/uml-dark.png" media="(prefers-color-scheme: dark)">
+  <img src="https://cdn.discordapp.com/attachments/1048446248274890764/1110143238536441866/uml-light.png" alt="CarbonLODI-UML" width="90%">
+</picture>
+<br>
+</p>
 
 #
 
