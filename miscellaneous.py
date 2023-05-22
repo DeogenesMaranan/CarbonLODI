@@ -236,7 +236,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
             time.sleep(3)
             sys.exit(1002)
 
-    def register(self):  # Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file.
+    def register(self):  # Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file. 
         while True:
             username = input("Enter your username: ")
             if username in self.users:
