@@ -33,7 +33,7 @@ class ErrorHandlerABC(ABC):
         """Prompt the user for an integer value. 
 
         Args:
-            prompt (str): The prompt message to display.
+            prompt (str): The prompt message to be displayed.
 
         Returns: 
             int: The user's input value.
