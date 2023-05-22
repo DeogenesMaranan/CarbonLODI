@@ -30,7 +30,7 @@ class ErrorHandlerABC(ABC):
 
     @abstractmethod
     def get_int(self, prompt):
-        """Prompt the user for an integer value.
+        """Prompt the user for an integer value. 
 
         Args:
             prompt (str): The prompt message to display.
