@@ -7,7 +7,7 @@ import random
 try:
     from tabulate import tabulate
 except ModuleNotFoundError:
-    # Handle the missing module error
+    # Handle the missing module error 
     print("The 'tabulate' module is not installed.")
     print("Please install it by running: pip install tabulate")
     time.sleep(3)
@@ -17,7 +17,7 @@ try:
     from abstracts import CarbonCalculatorABC
     from abstracts import AccountManagerABC
 except ModuleNotFoundError:
-    # Handle the missing module error
+    # Handle the missing module error 
     print("The 'abstracts.py' file is missing.")
     print("Please download the latest version of the Repository")
     time.sleep(3)
@@ -78,6 +78,7 @@ Response: '''
 
 class ErrorHandler(ErrorHandlerABC):
     def get_valid_option(self, prompt, valid_options=None):
+        """Takes in string, returns whether the input is valid or not."""
         if valid_options is None:
             valid_options = ['0', '1', '2']
         while True:
@@ -88,6 +89,7 @@ class ErrorHandler(ErrorHandlerABC):
                 print(f"Invalid input.")
 
     def get_float(self, prompt):
+        """Takes in positive float, returns whether the input is valid or not."""
         while True:
             try:
                 value = float(input(prompt))
@@ -112,7 +114,7 @@ class ErrorHandler(ErrorHandlerABC):
 
 class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
 
-    def calculate_housing_emissions(self):  # Ask user for housing information
+    def calculate_housing_emissions(self):  # Ask user for the housing information 
 
         house_size_sq_m = self.get_float("Size of your house (square meters): ")
         occupants = self.get_int("Number of occupants in your house: ")
@@ -130,7 +132,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
                 "Estimate the average number of hours per day you use a bio stove: ") * 0.03
 
         #  Formulas per month
-        house_size_sq_ft = house_size_sq_m * 10.764  # 1 sq m = 10.764 sq ft
+        house_size_sq_ft = house_size_sq_m * 10.764  # 1 sq m = 10.764 sq ft 
         electricity_emissions = electricity_use * 0.5  # 0.5 kg CO2e per kWH
 
         # Convert to grams per day
@@ -198,7 +200,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
     """
     This is a Class for Account Managing.
     Functions:
-        encrypt_password(password): (Private) Encrypts a password using a secret key.
+        encrypt_password(password): (Private) Encrypts a password using a secret key. 
         register(): Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file.
         load_users(): Loads user account information from the 'accounts.txt' file into the 'users' dict.
         login(): Prompts the user to login and checks if it matches a stored user account in the 'user' dict.
@@ -236,7 +238,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
             time.sleep(3)
             sys.exit(1002)
 
-    def register(self):  # Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file.
+    def register(self):  # Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file. 
         while True:
             username = input("Enter your username: ")
             if username in self.users:
@@ -252,7 +254,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         print("Registration successful.")
         return username
 
-    def login(self):  # Prompts the user to login and checks if it matches a stored user account in the 'user' dict.
+    def login(self):  # Prompts the user to login and checks if it matches a stored user account in the 'user' dict. 
         username = input("Enter your username: ")
         password = input("Enter your password: ")
         encrypted_password = self.__encrypt_password(password)
@@ -260,7 +262,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
             print(f"\nWelcome, {username}!")
             return username
         else:
-            print("Invalid username or password.")
+            print("Invalid username or password..")
 
     @staticmethod
     def file_to_dict(current_user):

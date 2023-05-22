@@ -18,7 +18,7 @@ def main():
         choice = input(Constants().main_menu)
         print("")
 
-        os.system('cls')  # Clear screen before processing user choice
+        os.system('cls')  # Clear the screen before processing user choice
 
         if choice == '1':
             current_user = AccountManager().register()

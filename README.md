@@ -23,12 +23,12 @@
 __L.O.D.I__ _stands for:_
 
 ✔️ __Logging__ various factors to be considered for the calculation (transportation, energy usage, consumption habits, and housing).
-
+ 
 ✔️ __Offsetting__ global warming through simple suggestions and advices. 
 
-✔️ __Determining__ one’s environmental impact on the environment.
+✔️ __Determining__ one’s environmental impact on the environment. 
 
-✔️ __Indexing__ and monitoring carbon emissions.
+✔️ __Indexing__ and monitoring carbon emissions. 
 
 <p align="center">
   <img src="https://media.discordapp.net/attachments/1080008638476861512/1090948347155714139/f_a_c.gif?width=200&height=192" width="150px">
@@ -50,11 +50,11 @@ Climate change is a concerning issue caused by long-term shifts in temperatures 
 </p>
 
 <p align="justify">
-A carbon footprint refers to the greenhouse gases produced by an individual in their daily life, including carbon dioxide, methane, nitrous oxide, and fluorinated gases. By tracking their carbon footprint, people can understand the environmental impact of their activities and lifestyle choices. Minimizing carbon footprint is essential for achieving a sustainable lifestyle and a better future.
+A carbon footprint refers to the greenhouse gases produced by an individual in their daily life, including carbon dioxide, methane, nitrous oxide, and fluorinated gases. By tracking their carbon footprint, people can understand the environmental impact of their activities and lifestyle choices. Minimizing carbon footprint is essential for achieving a sustainable lifestyle and a better future.  
 </p>
 
 <p align="justify">
-A carbon footprint calculator measures emissions in kilograms of carbon dioxide equivalents (CO2e). It includes a calculator that determines the amount of carbon emissions produced. Users input their transportation, energy usage, diet, consumption habits, and housing factors into the calculator. The calculator also provides suggestions for carbon offsetting and emissions reduction based on the user's inputs. Ultimately, it presents results and analysis to raise awareness about the impact of carbon emissions and encourage environmentally conscious actions.
+A carbon footprint calculator measures emissions in kilograms of carbon dioxide equivalents (CO2e). It includes a calculator that determines the amount of carbon emissions produced. Users input their transportation, energy usage, diet, consumption habits, and housing factors into the calculator. The calculator also provides suggestions for carbon offsetting and emissions reduction based on the user's inputs. Ultimately, it presents results and analysis to raise awareness about the impact of carbon emissions and encourage environmentally conscious actions. 
 </p>
 
 #
@@ -101,6 +101,22 @@ This program will benefit the following:
   <img src="https://media.discordapp.net/attachments/1080008638476861512/1090889491100749865/car.gif?width=385&height=385" width="180px">
 </p>
 
+#
+<p align="center">
+<picture>
+  <source srcset="https://cdn.discordapp.com/attachments/1048446248274890764/1110149221585256508/uml-dark-header.png" media="(prefers-color-scheme: dark)">
+  <img src="https://cdn.discordapp.com/attachments/1048446248274890764/1110149221807575120/uml-light-header.png" alt="UML Diagram" height="35px">
+</picture>
+  <br>
+</p>
+
+<p align="center">
+<picture>
+  <source srcset="https://cdn.discordapp.com/attachments/1048446248274890764/1110143238792290345/uml-dark.png" media="(prefers-color-scheme: dark)">
+  <img src="https://cdn.discordapp.com/attachments/1048446248274890764/1110143238536441866/uml-light.png" alt="CarbonLODI-UML" width="90%">
+</picture>
+<br>
+</p>
 
 #
 
