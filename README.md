@@ -9,10 +9,9 @@
 
 <br>
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Numpy?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/JaronLouise/Carbon_LODI?color=blue&style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/JaronLouise/CarbonLODI?color=blue&style=for-the-badge)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Numpy?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/DeogenesMaranan/CarbonLODI?color=blue&style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/DeogenesMaranan/CarbonLODI?color=blue&style=for-the-badge)
 
 #
-
 <p align="center">
 <picture>
   <source srcset="https://cdn.discordapp.com/attachments/1048446248274890764/1090944340572000316/about-dark.png" media="(prefers-color-scheme: dark)">
@@ -34,6 +33,7 @@ __L.O.D.I__ _stands for:_
 <p align="center">
   <img src="https://media.discordapp.net/attachments/1080008638476861512/1090948347155714139/f_a_c.gif?width=200&height=192" width="150px">
 </p>
+
 
 #
 
@@ -100,6 +100,7 @@ This program will benefit the following:
 <p align="center">
   <img src="https://media.discordapp.net/attachments/1080008638476861512/1090889491100749865/car.gif?width=385&height=385" width="180px">
 </p>
+
 
 #
 
