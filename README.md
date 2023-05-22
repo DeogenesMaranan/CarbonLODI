@@ -75,7 +75,8 @@ A carbon footprint calculator measures emissions in kilograms of carbon dioxide 
 This program will benefit the following: 
 
 🏫 __Academe.__ This program will help the academe to monitor, regulate, and control the carbon footprint of each part of the academe.  
-🏢 __Government.__ This program will help the government to ensure emissions in a city or country do not exceed a designated carbon footprint limit.  👨‍🎓 __Students.__ This program will aim for students to change their primary habits in their daily lives (such as eating less meat) to help make an impact.    
+🏢 __Government.__ This program will help the government to ensure emissions in a city or country do not exceed a designated carbon footprint limit.
+👨‍🎓 __Students.__ This program will aim for students to change their primary habits in their daily lives (such as eating less meat) to help make an impact.    
 </p>
 
 #
