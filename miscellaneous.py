@@ -173,7 +173,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
         return transportation_co2e
 
     def calculate_food_emissions(self):
-        """A prompt for collecting data from the food emissions."""
+        """A prompt for collecting data from the user's food emissions."""
         emissions_dict = {}
 
         file_path = os.path.join(os.getcwd(), 'resources', 'food.txt')
