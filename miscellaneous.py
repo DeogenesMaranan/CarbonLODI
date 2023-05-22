@@ -252,7 +252,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         print("Registration successful.")
         return username
 
-    def login(self):  # Prompts the user to login and checks if it matches a stored user account in the 'user' dict.
+    def login(self):  # Prompts the user to login and checks if it matches a stored user account in the 'user' dict. 
         username = input("Enter your username: ")
         password = input("Enter your password: ")
         encrypted_password = self.__encrypt_password(password)
