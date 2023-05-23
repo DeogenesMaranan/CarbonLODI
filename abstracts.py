@@ -39,10 +39,6 @@ class ErrorHandlerABC(ABC):
             int: The user's input value.
         """
         pass
-
-    @abstractmethod
-    def read_data_file(file_path):
-        """Reads data from a file and converts it into a dictionary."""
         
 
 
