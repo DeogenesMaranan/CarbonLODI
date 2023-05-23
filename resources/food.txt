@@ -4,6 +4,7 @@ pork: 5.8
 chicken: 6.9
 turkey: 10.9
 salmon: 11.9
+fish: 3.75
 shrimp: 6.1
 tuna: 6.1
 cod: 3.2
