@@ -17,8 +17,7 @@ def main():
     The function presents a menu to the user, clears the screen, and processes the user's choice.
     It supports user registration, login, and exiting the program.
 
-    note: Converting this while loop into a function allows it to be called from other files, 
-    such as Jupyter Notebooks, even though it may be more concise and functional without making it 
+    note: Converting this while loop into a function allows it to be called from other files, such as Jupyter Notebooks, even though it may be more concise and functional without making it 
     a separate function.
     """
     while True:  # Runs the Main Menu in loop
