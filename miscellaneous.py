@@ -251,7 +251,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
 
     @property
     def load_users(self):
-        """Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file."""
+        """Loads user account information from the 'accounts.txt' file into the 'users' dict."""
         file_path = os.path.join(os.getcwd(), 'resources', 'accounts.txt')
         try:
             users = {}
