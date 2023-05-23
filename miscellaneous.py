@@ -122,7 +122,7 @@ class ErrorHandler(ErrorHandlerABC):
                 else:
                     print("Invalid input. Please enter a positive value.")
             except ValueError:
-                print("Invalid input. Please enter a valid value."
+                print("Invalid input. Please enter a valid value.")
 
 
 class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
