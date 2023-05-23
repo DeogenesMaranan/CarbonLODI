@@ -6,8 +6,7 @@ import random
 
 try:
     from tabulate import tabulate
-except ModuleNotFoundError:
-    # Handle the missing module error 
+except ModuleNotFoundError:  # Handle the missing module error 
     print("The 'tabulate' module is not installed.")
     print("Please install it by running: pip install tabulate")
     time.sleep(3)
@@ -16,8 +15,7 @@ try:
     from abstracts import ErrorHandlerABC
     from abstracts import CarbonCalculatorABC
     from abstracts import AccountManagerABC
-except ModuleNotFoundError:
-    # Handle the missing module error 
+except ModuleNotFoundError:  # Handle the missing module error 
     print("The 'abstracts.py' file is missing.")
     print("Please download the latest version of the Repository")
     time.sleep(3)
@@ -79,6 +77,15 @@ Response: '''
 
 
 class ErrorHandler(ErrorHandlerABC):
+    """
+    A class that handles or catches possible errors in user input.
+
+    Methods:
+    - get_valid_option(prompt, valid_options=None): Takes in a prompt and an optional list of valid options,
+      and returns whether the input is valid or not.
+    - get_float(prompt): Takes in a prompt and expects a positive float as input, returning whether the input is valid or not.
+    - get_int(prompt): Takes in a prompt and expects a positive integer as input, returning whether the input is valid or not.
+    """
     def get_valid_option(self, prompt, valid_options=None):
         """Takes in string, returns whether the input is valid or not."""
         if valid_options is None:
