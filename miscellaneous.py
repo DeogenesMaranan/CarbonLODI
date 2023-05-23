@@ -272,7 +272,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         self.read_data_file(file_path)
 
     def register(self):
-        """Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file. """
+        """Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file."""
         while True:
             username = input("Enter your username: ")
             if username in self.users:
