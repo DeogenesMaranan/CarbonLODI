@@ -268,18 +268,7 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
     def load_users(self):
         """Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file."""
         file_path = os.path.join(os.getcwd(), 'resources', 'accounts.txt')
-        try:
-            users = {}
-            with open(file_path, 'r') as file:
-                for line in file:
-                    username, encrypted_password = line.strip().split(':')
-                    users[username] = {'password': encrypted_password}
-            return users
-        except FileNotFoundError:
-            print("The 'accounts.txt' file is missing.")
-            print("Please download the latest version of the Repository")
-            time.sleep(3)
-            sys.exit(1002)
+        self.read_data_file(file_path)
 
     def register(self):
         """Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file."""
@@ -312,12 +301,12 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
     @staticmethod
     def file_to_dict(current_user):
         """Convert the 'user-username.txt' file into 'data_dict' dict."""
-        data_dict = {}
         try:
             file_path = os.path.join(os.getcwd(), 'users', f"user-{current_user}.txt")
-            read_data_file(file_path)
+            return read_data_file(file_path)
         except FileNotFoundError:
             print(f"File 'user-{current_user}.txt' does not exist.")
+            return None
 
     @staticmethod
     def generate_table(data_dict):
