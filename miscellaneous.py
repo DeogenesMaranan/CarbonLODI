@@ -86,7 +86,8 @@ class ErrorHandler(ErrorHandlerABC):
     - get_float(prompt): Takes in a prompt and expects a positive float as input, returning whether the input is valid or not.
     - get_int(prompt): Takes in a prompt and expects a positive integer as input, returning whether the input is valid or not.
     """
-    def get_valid_option(self, prompt, valid_options=None):
+    @staticmethod
+    def get_valid_option(prompt, valid_options=None):
         """Takes in a prompt and an optional list of valid options, and returns whether the input is valid or not."""
         if valid_options is None:
             valid_options = ['0', '1', '2']
@@ -97,7 +98,8 @@ class ErrorHandler(ErrorHandlerABC):
             else:
                 print(f"Invalid input.")
 
-    def get_float(self, prompt):
+    @staticmethod
+    def get_float(prompt):
         """Takes in a prompt and expects a positive float as input, returning whether the input is valid or not."""
         while True:
             try:
@@ -109,7 +111,8 @@ class ErrorHandler(ErrorHandlerABC):
             except ValueError:
                 print("Invalid input. Please enter a valid value.")
 
-    def get_int(self, prompt):
+    @staticmethod
+    def get_int(prompt):
         """Takes in a prompt and expects a positive integer as input, returning whether the input is valid or not."""
         while True:
             try:
