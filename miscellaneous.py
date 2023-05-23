@@ -335,14 +335,19 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         os.system('cls')  # Clear the screen before processing user choice 
 
         if choice == '1':
-            print(f"{Constants().logo}{Constants.print_random_recommendation()}\n")
+            print(Constants.logo)
+            Constants.print_random_recommendation()
+            print("")
             self.calculate_all(self.current_user)
             input("\nPress any key to continue...")
             self.show_home(current_user)
         elif choice == '2':
-            print(f"{Constants().logo}{Constants.print_random_recommendation()}\n")
+            print(Constants.logo)
+            Constants.print_random_recommendation()
+            print("")
             data_dict = self.file_to_dict(current_user)
             print(f"\n{self.generate_table(data_dict)}")
+            Constants.print_random_recommendation()
             input("\nPress any key to continue...")
             self.show_home(current_user)
         else:

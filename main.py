@@ -31,11 +31,15 @@ def main():
         os.system('cls')  # Clear the screen before processing user choice 
 
         if choice == '1':
-            print(f"{Constants().logo}{Constants.print_random_recommendation()}\n")
+            print(f"{Constants().logo}")
+            Constants.print_random_recommendation()
+            print("")
             current_user = AccountManager().register()
             input("\nPress any key to continue...")
         elif choice == '2':
-            print(f"{Constants().logo}{Constants.print_random_recommendation()}\n")
+            print(Constants.logo)
+            Constants.print_random_recommendation()
+            print("")
             current_user = AccountManager().login()
             if current_user is None:
                 input("\nPress any key to continue...")
