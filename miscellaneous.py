@@ -126,19 +126,19 @@ class ErrorHandler(ErrorHandlerABC):
 
     @staticmethod
     def read_data_file(file_path):
-    """Reads data from a file and converts it into a dictionary."""
-    try:
-        data = {}
-        with open(file_path, 'r') as file:
-            for line in file:
-                key, value = line.strip().split(' : ')
-                data[key] = value
-        return data
-    except FileNotFoundError:
-        print(f"The file '{file_path}' is missing.")
-        print("Please download the latest version of the Repository")
-        time.sleep(3)
-        sys.exit(1002)
+        """Reads data from a file and converts it into a dictionary."""
+        try:
+            data = {}
+            with open(file_path, 'r') as file:
+                for line in file:
+                    key, value = line.strip().split(' : ')
+                    data[key] = value
+            return data
+        except FileNotFoundError:
+            print(f"The file '{file_path}' is missing.")
+            print("Please download the latest version of the Repository")
+            time.sleep(3)
+            sys.exit(1002)
 
 
 class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
