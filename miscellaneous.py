@@ -124,8 +124,7 @@ class ErrorHandler(ErrorHandlerABC):
             except ValueError:
                 print("Invalid input. Please enter a valid value.")
 
-    @staticmethod
-    def read_data_file(file_path):
+    def read_data_file(self.file_path):
         """Reads data from a file and converts it into a dictionary."""
         try:
             data = {}
@@ -304,9 +303,10 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         """Convert the 'user-username.txt' file into 'data_dict' dict."""
         try:
             file_path = os.path.join(os.getcwd(), 'users', f"user-{current_user}.txt")
-            read_data_file(file_path)
+            return read_data_file(file_path)
         except FileNotFoundError:
             print(f"File 'user-{current_user}.txt' does not exist.")
+            return None
 
     @staticmethod
     def generate_table(data_dict):

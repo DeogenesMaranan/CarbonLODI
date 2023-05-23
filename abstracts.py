@@ -40,6 +40,11 @@ class ErrorHandlerABC(ABC):
         """
         pass
 
+    @abstractmethod
+    def read_data_file(file_path):
+        """Reads data from a file and converts it into a dictionary."""
+        
+
 
 class CarbonCalculatorABC(ErrorHandlerABC, ABC):
     """Abstract base class for carbon calculator methods."""
