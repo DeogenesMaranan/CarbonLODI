@@ -119,10 +119,10 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
     """
     A class that calculates carbon emissions based on housing, transportation, and food information.
     Functions:
-        calculate_housing_emissions(): Calculates carbon emissions from housing.
-        calculate_transportation_emissions(): Calculates carbon emissions from transportation.
-        calculate_food_emissions(): Calculates carbon emissions from food consumption.
-        calculate_all(): Calculates total carbon emissions and provides recommendations.
+        calculate_housing_emissions(): Prompts user for collecting data from the housing emissions.
+        calculate_transportation_emissions(): Prompts user for collecting data from the transportation emissions.
+        calculate_food_emissions(): Prompts user for collecting data from the food emissions.
+        calculate_all(): Calculates total carbon emissions and store the calculated data into the designated text file.
     """
 
     def calculate_housing_emissions(self):  # Ask user for the housing information 
