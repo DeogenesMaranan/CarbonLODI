@@ -126,9 +126,7 @@ class ErrorHandler(ErrorHandlerABC):
 
     @staticmethod
     def read_data_file(file_path):
-    """
-    Reads data from a file and converts it into a dictionary.
-    """
+    """Reads data from a file and converts it into a dictionary."""
     try:
         data = {}
         with open(file_path, 'r') as file:
