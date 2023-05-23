@@ -6,8 +6,7 @@ import random
 
 try:
     from tabulate import tabulate
-except ModuleNotFoundError:
-    # Handle the missing module error 
+except ModuleNotFoundError:  # Handle the missing module error 
     print("The 'tabulate' module is not installed.")
     print("Please install it by running: pip install tabulate")
     time.sleep(3)
@@ -16,8 +15,7 @@ try:
     from abstracts import ErrorHandlerABC
     from abstracts import CarbonCalculatorABC
     from abstracts import AccountManagerABC
-except ModuleNotFoundError:
-    # Handle the missing module error 
+except ModuleNotFoundError:  # Handle the missing module error 
     print("The 'abstracts.py' file is missing.")
     print("Please download the latest version of the Repository")
     time.sleep(3)
@@ -79,8 +77,18 @@ Response: '''
 
 
 class ErrorHandler(ErrorHandlerABC):
-    def get_valid_option(self, prompt, valid_options=None):
-        """Takes in string, returns whether the input is valid or not."""
+    """
+    A class that handles or catches possible errors in user input.
+
+    Methods:
+    - get_valid_option(prompt, valid_options=None): Takes in a prompt and an optional list of valid options,
+      and returns whether the input is valid or not.
+    - get_float(prompt): Takes in a prompt and expects a positive float as input, returning whether the input is valid or not.
+    - get_int(prompt): Takes in a prompt and expects a positive integer as input, returning whether the input is valid or not.
+    """
+    @staticmethod
+    def get_valid_option(prompt, valid_options=None):
+        """Takes in a prompt and an optional list of valid options, and returns whether the input is valid or not."""
         if valid_options is None:
             valid_options = ['0', '1', '2']
         while True:
@@ -90,8 +98,9 @@ class ErrorHandler(ErrorHandlerABC):
             else:
                 print(f"Invalid input.")
 
-    def get_float(self, prompt):
-        """Takes in positive float, returns whether the input is valid or not."""
+    @staticmethod
+    def get_float(prompt):
+        """Takes in a prompt and expects a positive float as input, returning whether the input is valid or not."""
         while True:
             try:
                 value = float(input(prompt))
@@ -102,8 +111,9 @@ class ErrorHandler(ErrorHandlerABC):
             except ValueError:
                 print("Invalid input. Please enter a valid value.")
 
-    def get_int(self, prompt):
-        """Takes in positive int, returns whether the input is valid or not."""
+    @staticmethod
+    def get_int(prompt):
+        """Takes in a prompt and expects a positive integer as input, returning whether the input is valid or not."""
         while True:
             try:
                 value = int(input(prompt))
@@ -119,14 +129,14 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
     """
     A class that calculates carbon emissions based on housing, transportation, and food information.
     Functions:
-        calculate_housing_emissions(): Calculates carbon emissions from housing.
-        calculate_transportation_emissions(): Calculates carbon emissions from transportation.
-        calculate_food_emissions(): Calculates carbon emissions from food consumption.
-        calculate_all(): Calculates total carbon emissions and provides recommendations.
+        calculate_housing_emissions(): Prompts user for collecting data from the housing emissions.
+        calculate_transportation_emissions(): Prompts user for collecting data from the transportation emissions.
+        calculate_food_emissions(): Prompts user for collecting data from the food emissions.
+        calculate_all(): Calculates total carbon emissions and store the calculated data into the designated text file.
     """
 
     def calculate_housing_emissions(self):  # Ask user for the housing information 
-        """A prompt for collecting data from the housing emissions."""
+        """Prompts user for collecting data from the housing emissions."""
         house_size_sq_m = self.get_float("Size of your house (square meters): ")
         occupants = self.get_int("Number of occupants in your house: ")
         electricity_use = self.get_float("Electric consumption per month (kWH): ")
@@ -150,7 +160,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
         return ((electricity_emissions + cooking_emission) / occupants / house_size_sq_ft) * 1000 / 30
 
     def calculate_transportation_emissions(self):
-        """A prompt for collecting data from the transportation emissions."""
+        """Prompts user for collecting data from the transportation emissions."""
         transportation_type = self.get_valid_option(Constants.transportation_menu)
 
         if transportation_type == '0':
@@ -173,7 +183,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
         return transportation_co2e
 
     def calculate_food_emissions(self):
-        """A prompt for collecting data from the food emissions."""
+        """Prompts user for collecting data from the food emissions."""
         emissions_dict = {}
 
         file_path = os.path.join(os.getcwd(), 'resources', 'food.txt')
@@ -323,11 +333,21 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
         print(Constants.logo)
         Constants.print_random_recommendation()
         choice = self.get_valid_option(Constants.home_menu)
+        print("")
+
+        os.system('cls')  # Clear the screen before processing user choice 
+
         if choice == '1':
+            print(Constants.logo)
+            Constants.print_random_recommendation()
+            print("")
             self.calculate_all(self.current_user)
             input("\nPress any key to continue...")
             self.show_home(current_user)
         elif choice == '2':
+            print(Constants.logo)
+            Constants.print_random_recommendation()
+            print("")
             data_dict = self.file_to_dict(current_user)
             print(f"\n{self.generate_table(data_dict)}")
             Constants.print_random_recommendation()
