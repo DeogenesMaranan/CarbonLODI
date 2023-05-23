@@ -126,7 +126,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
     """
 
     def calculate_housing_emissions(self):  # Ask user for the housing information 
-        """A prompt for collecting data from the housing emissions."""
+        """Prompts user for collecting data from the housing emissions."""
         house_size_sq_m = self.get_float("Size of your house (square meters): ")
         occupants = self.get_int("Number of occupants in your house: ")
         electricity_use = self.get_float("Electric consumption per month (kWH): ")
@@ -150,7 +150,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
         return ((electricity_emissions + cooking_emission) / occupants / house_size_sq_ft) * 1000 / 30
 
     def calculate_transportation_emissions(self):
-        """A prompt for collecting data from the transportation emissions."""
+        """Prompts user for collecting data from the transportation emissions."""
         transportation_type = self.get_valid_option(Constants.transportation_menu)
 
         if transportation_type == '0':
@@ -173,7 +173,7 @@ class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
         return transportation_co2e
 
     def calculate_food_emissions(self):
-        """A prompt for collecting data from the food emissions."""
+        """Prompts user for collecting data from the food emissions."""
         emissions_dict = {}
 
         file_path = os.path.join(os.getcwd(), 'resources', 'food.txt')
