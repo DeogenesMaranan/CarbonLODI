@@ -122,22 +122,7 @@ class ErrorHandler(ErrorHandlerABC):
                 else:
                     print("Invalid input. Please enter a positive value.")
             except ValueError:
-                print("Invalid input. Please enter a valid value.")
-
-    def read_data_file(self, file_path):
-        """Reads data from a file and converts it into a dictionary."""
-        try:
-            data = {}
-            with open(file_path, 'r') as file:
-                for line in file:
-                    key, value = line.strip().split(' : ')
-                    data[key] = value
-            return data
-        except FileNotFoundError:
-            print(f"The file '{file_path}' is missing.")
-            print("Please download the latest version of the Repository")
-            time.sleep(3)
-            sys.exit(1002)
+                print("Invalid input. Please enter a valid value."
 
 
 class CarbonCalculator(CarbonCalculatorABC, ErrorHandler):
@@ -268,7 +253,18 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
     def load_users(self):
         """Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file."""
         file_path = os.path.join(os.getcwd(), 'resources', 'accounts.txt')
-        self.read_data_file(file_path)
+        try:
+            users = {}
+            with open(file_path, 'r') as file:
+                for line in file:
+                    username, encrypted_password = line.strip().split(':')
+                    users[username] = {'password': encrypted_password}
+            return users
+        except FileNotFoundError:
+            print("The 'accounts.txt' file is missing.")
+            print("Please download the latest version of the Repository")
+            time.sleep(3)
+            sys.exit(1002)
 
     def register(self):
         """Prompts user for creating account info and stores it in 'users' dict and 'accounts.txt' file."""
@@ -301,12 +297,21 @@ class AccountManager(AccountManagerABC, CarbonCalculator):
     @staticmethod
     def file_to_dict(current_user):
         """Convert the 'user-username.txt' file into 'data_dict' dict."""
+        data_dict = {}
         try:
             file_path = os.path.join(os.getcwd(), 'users', f"user-{current_user}.txt")
-            return read_data_file(file_path)
+            with open(file_path, 'r') as file:
+                for line in file:
+                    line = line.strip()
+                    if line:
+                        date, emissions = line.split(' : ')
+                        if date in data_dict:
+                            data_dict[date] += f"\n{emissions}"
+                        else:
+                            data_dict[date] = emissions
         except FileNotFoundError:
             print(f"File 'user-{current_user}.txt' does not exist.")
-            return None
+        return data_dict
 
     @staticmethod
     def generate_table(data_dict):
