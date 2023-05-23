@@ -16,9 +16,6 @@ def main():
 
     The function presents a menu to the user, clears the screen, and processes the user's choice.
     It supports user registration, login, and exiting the program.
-
-    note: Converting this while loop into a function allows it to be called from other files, such as Jupyter Notebooks, even though it may be more concise and functional without making it 
-    a separate function.
     """
     while True:  # Runs the Main Menu in loop
         os.system('cls')
@@ -27,18 +24,12 @@ def main():
         choice = input(Constants().main_menu)
         print("")
 
-        os.system('cls')  # Clear the screen before processing user choice 
+        os.system('cls')  # Clear the screen before processing user choice
 
         if choice == '1':
-            print(f"{Constants().logo}")
-            Constants.print_random_recommendation()
-            print("")
             current_user = AccountManager().register()
             input("\nPress any key to continue...")
         elif choice == '2':
-            print(Constants.logo)
-            Constants.print_random_recommendation()
-            print("")
             current_user = AccountManager().login()
             if current_user is None:
                 input("\nPress any key to continue...")

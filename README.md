@@ -46,7 +46,7 @@ __L.O.D.I__ _stands for:_
 </p>
 
 <p align="justify">
-Climate change is a concerning issue caused by long-term shifts in temperatures and weather patterns. The increasing greenhouse gas emissions from individuals, corporations, businesses, and industries have led to harmful effects on the environment, such as heat, drought, and insect outbreaks. It is crucial to reduce carbon emissions to mitigate these effects. 
+Climate change is a concerning issue caused by long-term shifts in temperatures and weather patterns. The increasing greenhouse gas emissions from individuals, corporations, businesses, and industries have led to harmful effects on the environment, such as heat, drought, and insect outbreaks. It is crucial to reduce carbon emissions to mitigate these effects.
 </p>
 
 <p align="justify">
