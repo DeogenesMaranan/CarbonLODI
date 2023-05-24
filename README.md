@@ -6,7 +6,9 @@
 </picture>
 <br>
 </p>
-[![YOUTUBE VIDEO](https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png)](https://youtu.be/nky0HjtzCWg)]
+
+[![IMAGE ALT TEXT HERE](https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png)](https://www.youtube.com/watch?v=nky0HjtzCWg)
+
 <br>
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Numpy?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/DeogenesMaranan/CarbonLODI?color=blue&style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/DeogenesMaranan/CarbonLODI?color=blue&style=for-the-badge)
