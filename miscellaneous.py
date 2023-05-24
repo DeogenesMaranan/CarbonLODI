@@ -96,7 +96,7 @@ class ErrorHandler(ErrorHandlerABC):
             if option in valid_options:
                 return option
             else:
-                print(f"Invalid input.")
+                print("Invalid input. Please enter a valid value.")
 
     @staticmethod
     def get_float(prompt):
