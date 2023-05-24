@@ -120,7 +120,7 @@ This program will benefit the following:
 
 #
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nky0HjtzCWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![](https://img.youtube.com/vi/nky0HjtzCWg/0.jpg)](https://www.youtube.com/watch?v=nky0HjtzCWg)
 
 #
 
