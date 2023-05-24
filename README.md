@@ -52,9 +52,7 @@ __L.O.D.I__ _stands for:_
 <p align="justify">
 Climate change is a concerning issue caused by long-term shifts in temperatures and weather patterns. The increasing greenhouse gas emissions from individuals, corporations, businesses, and industries have led to harmful effects on the environment, such as heat, drought, and insect outbreaks. It is crucial to reduce carbon emissions to mitigate these effects. 
 </p>
-<p align="center">
-  <img src="https://www.un.org/sites/un2.un.org/files/field/image/e_gif_13.gif" width="150px">
-</p>
+
 
 <p align="justify">
 A carbon footprint refers to the greenhouse gases produced by an individual in their daily life, including carbon dioxide, methane, nitrous oxide, and fluorinated gases. By tracking their carbon footprint, people can understand the environmental impact of their activities and lifestyle choices. Minimizing carbon footprint is essential for achieving a sustainable lifestyle and a better future.  
@@ -62,6 +60,10 @@ A carbon footprint refers to the greenhouse gases produced by an individual in t
 
 <p align="justify">
 A carbon footprint calculator measures emissions in kilograms of carbon dioxide equivalents (CO2e). It includes a calculator that determines the amount of carbon emissions produced. Users input their transportation, energy usage, diet, consumption habits, and housing factors into the calculator. The calculator also provides suggestions for carbon offsetting and emissions reduction based on the user's inputs. Ultimately, it presents results and analysis to raise awareness about the impact of carbon emissions and encourage environmentally conscious actions. 
+</p>
+
+<p align="center">
+  <img src="https://www.un.org/sites/un2.un.org/files/field/image/e_gif_13.gif" width="150px">
 </p>
 
 
