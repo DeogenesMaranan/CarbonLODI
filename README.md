@@ -5,8 +5,8 @@
   <img src="https://cdn.discordapp.com/attachments/1048446248274890764/1090512762448392271/try.png" alt="CarbonLODI-logo" width="500px">
 </picture>
 <br>
-<a href="https://www.youtube.com/watch?v=nky0HjtzCWg" target="_blank" <img src="https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png" width="150px" height="100px" alt="Youtube Video">>
-
+<a href="https://www.youtube.com/watch?v=nky0HjtzCWg" target="_blank">
+<img src="https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png" width="150px" height="100px" alt="Youtube Video">
 </p>
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Numpy?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/DeogenesMaranan/CarbonLODI?color=blue&style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/DeogenesMaranan/CarbonLODI?color=blue&style=for-the-badge)
