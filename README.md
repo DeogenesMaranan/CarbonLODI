@@ -1,7 +1,7 @@
 <br>
 <p align="center">
 <picture>
-  <a href="https://youtu.be/nky0HjtzCWg" target="popup" onclick="window.open("https://youtu.be/nky0HjtzCWg",'name','width=600,height=400')">Open page in new window></a>
+  <a href="https://youtu.be/nky0HjtzCWg" target="_blank">
   <source srcset="https://cdn.discordapp.com/attachments/1048446248274890764/1090517994469335040/darkmode.png" media="(prefers-color-scheme: dark)">
   <img src="https://cdn.discordapp.com/attachments/1048446248274890764/1090512762448392271/try.png" alt="CarbonLODI-logo" width="500px">
 </picture>
