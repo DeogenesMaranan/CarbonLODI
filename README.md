@@ -9,6 +9,12 @@
 <br>
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Numpy?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/DeogenesMaranan/CarbonLODI?color=blue&style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/DeogenesMaranan/CarbonLODI?color=blue&style=for-the-badge)
+<br>
+[![Reliability Rating](https://img.shields.io/badge/Reliability-A-blue?color=blue&style=for-the-badge)](https://sonarcloud.io/summary/new_code?id=DeogenesMaranan_CarbonLODI)
+[![Maintainability Rating](https://img.shields.io/badge/Maintainability-A-blue?color=blue&style=for-the-badge)](https://sonarcloud.io/summary/new_code?id=DeogenesMaranan_CarbonLODI)
+[![Security Rating](https://img.shields.io/badge/Security-A-blue?color=blue&style=for-the-badge)](https://sonarcloud.io/summary/new_code?id=DeogenesMaranan_CarbonLODI)
+[![Bugs](https://img.shields.io/badge/Bugs-0-blue?color=blue&style=for-the-badge)](https://sonarcloud.io/summary/new_code?id=DeogenesMaranan_CarbonLODI)
+
 
 #
 <p align="center">
