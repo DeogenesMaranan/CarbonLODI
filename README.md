@@ -1,6 +1,7 @@
 <br>
 <p align="center">
 <picture>
+  <a href="https://youtu.be/nky0HjtzCWg" target="_blank">
   <source srcset="https://cdn.discordapp.com/attachments/1048446248274890764/1090517994469335040/darkmode.png" media="(prefers-color-scheme: dark)">
   <img src="https://cdn.discordapp.com/attachments/1048446248274890764/1090512762448392271/try.png" alt="CarbonLODI-logo" width="500px">
 </picture>
@@ -117,10 +118,6 @@ This program will benefit the following:
 </picture>
 <br>
 </p>
-
-#
-
-[![](https://img.youtube.com/vi/nky0HjtzCWg/0.jpg)](https://www.youtube.com/watch?v=nky0HjtzCWg)
 
 #
 
