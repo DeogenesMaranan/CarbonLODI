@@ -47,12 +47,13 @@ __L.O.D.I__ _stands for:_
 </picture>
 <br>
 </p>
-<p align="center">
-  <img src="https://www.un.org/sites/un2.un.org/files/field/image/e_gif_13.gif" width="150px">
-</p>
+
 
 <p align="justify">
 Climate change is a concerning issue caused by long-term shifts in temperatures and weather patterns. The increasing greenhouse gas emissions from individuals, corporations, businesses, and industries have led to harmful effects on the environment, such as heat, drought, and insect outbreaks. It is crucial to reduce carbon emissions to mitigate these effects. 
+</p>
+<p align="center">
+  <img src="https://www.un.org/sites/un2.un.org/files/field/image/e_gif_13.gif" width="150px">
 </p>
 
 <p align="justify">
