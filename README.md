@@ -14,6 +14,8 @@
 <p align="center">
 <a href="https://www.youtube.com/watch?v=nky0HjtzCWg" target="_blank">
 <img src="https://www.freepnglogos.com/uploads/youtube-logo-hd-8.png" width="150px" height="100px" alt="Youtube Video">
+</p>
+<p align="center">
 <picture>
   <source srcset="https://cdn.discordapp.com/attachments/1048446248274890764/1090944340572000316/about-dark.png" media="(prefers-color-scheme: dark)">
   <img src="https://cdn.discordapp.com/attachments/1048446248274890764/1090944340773310484/about-light.png" alt="About" height="35px">
