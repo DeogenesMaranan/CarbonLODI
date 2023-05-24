@@ -2,7 +2,7 @@ import time
 import os
 import sys
 import datetime
-import random
+import secrets
 
 try:
     from tabulate import tabulate
@@ -72,8 +72,8 @@ Response: '''
         with open(file_path, 'r') as file:
             lines = file.readlines()
             if lines:
-                random_line = random.choice(lines)
-                print(f"\nRecommendation: {random_line.strip()}")
+                random_line = secrets.choice(lines).strip()
+                print(f"\nRecommendation: {random_line}")
 
 
 class ErrorHandler(ErrorHandlerABC):
